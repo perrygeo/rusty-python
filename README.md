@@ -1,5 +1,7 @@
 # Rusty Python
 
+[![CI](https://github.com/perrygeo/rusty-python/actions/workflows/CI.yml/badge.svg)](https://github.com/perrygeo/rusty-python/actions/workflows/CI.yml)
+
 A brief introduction to mixing Rust code into a Python project.
 
 ## Motivation
