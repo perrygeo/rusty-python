@@ -12,3 +12,16 @@ fn rusty_python(m: &Bound<'_, PyModule>) -> PyResult<()> {
     m.add_function(wrap_pyfunction!(sum_as_string_rust, m)?)?;
     Ok(())
 }
+
+//
+// Rust Unit Tests
+//
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_sum_as_string() {
+        assert_eq!(sum_as_string_rust(1, 2).unwrap(), "3");
+    }
+}
