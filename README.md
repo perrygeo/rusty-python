@@ -30,7 +30,7 @@ generate bindings and `maturin` as a build tool to smooth the process.
 
 ## Development
 
-In a new virtualenv
+In a new virtual environment
 
 ```
 $ pip install maturin pytest
